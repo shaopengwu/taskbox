@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class RandomIdService {
+  static usedId: string[] = [];
   getId(): string {
     const id = Math.random();
     const idStr = id.toFixed(10);
