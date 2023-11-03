@@ -33,7 +33,8 @@ import { RandomIdService } from './random-id.service';
           id="title-{{ task?.id }}-{{idStr}}"
           name="title-{{ task?.id }}"
           placeholder="Input title"
-          style="backgroundColor:red;"
+          style="text-overflow: ellipsis;"
+
         />
       </label>
 
